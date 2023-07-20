@@ -9,6 +9,7 @@ var myLove;
 myLove ="I Love only JS"
 console.log(myLove);
 
+
 var firstName;
 firstName = "Priya"
 console.log(firstName);

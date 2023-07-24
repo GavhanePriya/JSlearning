@@ -44,5 +44,3 @@ var resultTrimEnd = greet.trimEnd();
 var trimEndLength = resultTrimEnd.length; 
 var endSpaces = greet.length - trimEndLength;
 console.log(` End Spaces is : ${endSpaces} `);
-var resultTrimBefor = greet.trimBefor();
-var 

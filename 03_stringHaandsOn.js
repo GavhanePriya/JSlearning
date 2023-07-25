@@ -7,7 +7,7 @@ function stringHandsOn(){
      console.log(`Length of string is:-`,lengthString); 
     console.log(`--------------------------------step3---------------------------`);
     var result = string.trim();
-    console.log(`After Trim string is==>${result}and it's length is==>${result.length}`);
+    console.log(`After Trim string is==>${result} and it's length is==>${result.length}`);
     console.log(`----------------------------------step4---------------------------`);
     var resultTrimStart = string.trimStart();
     var trimStartLength = resultTrimStart.length;

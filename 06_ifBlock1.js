@@ -44,8 +44,5 @@ voteEligibility("30", "Jenny");
 voteEligibility(null, "Jenny");
 voteEligibility(undefined, "Jenny");
 voteEligibility(150, "Jenny");
-var num = 120;
-if (num>=120) {
-    console.log(num);
+
     
-}

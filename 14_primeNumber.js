@@ -1,3 +1,5 @@
+
+
 function isprime (n){
     if (n===1) {
         return `You entered 1 & is not prime number`

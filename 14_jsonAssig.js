@@ -1,5 +1,3 @@
-
-
 let employeeInform = `{
     "name": "Alexi Melon",
     "id": "E00245",
@@ -14,12 +12,14 @@ let employeeInform = `{
     },
     "referred-by":"E0012"
 }`;
+
 console.log(`-----------------------------After json----------------------`);
 console.log(`type of employeeInform : ${typeof employeeInform}`);
 console.log(`---------------------------Before josn---------------------`);
 const address = JSON.parse(employeeInform);
 console.log(` address type of ==> ${typeof address}`);
 console.log(address);
+
 // convert to object....
  const employee={};
 

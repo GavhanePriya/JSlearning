@@ -39,6 +39,5 @@ for (const key in sbiDetails) {
         const element = sbiDetails[key];
         console.log(`${key}==>${element}`);
         console.log("--------------------------");
-        
-    }
+      }
 }

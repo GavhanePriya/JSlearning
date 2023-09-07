@@ -14,7 +14,7 @@ console.log(`---------------------------step3-------------------------`);
 const negativeNumber = []
 arrayNumber.forEach((currentValue) => {
     if (currentValue < 0) {
-        negativeNumber.push(currentValue)
+       negativeNumber .push(currentValue)
         console.log(`Negative number in array is : ${negativeNumber}`);
     }
 });

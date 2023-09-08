@@ -15,15 +15,7 @@ class Employee {
   const emp_viny = new Employee(88, "Vinayak", "IT", 75000, "TCS");
   const emp_mahi = new Employee(99, "Mahesh", "HR", 85000, "Infy");
   
-  let arrayEmployees = [
-    emp_anil,
-    emp_radha,
-    emp_rishi,
-    emp_sonali,
-    emp_monika,
-    emp_viny,
-    emp_mahi,
-  ];
+  let arrayEmployees = [emp_anil,emp_radha,emp_rishi,emp_sonali,emp_monika,emp_viny,emp_mahi,];
   const employeeTcs = arrayEmployees.filter((employee)=> {
     return employee.emp_company==='TCS';
   });

@@ -23,7 +23,7 @@ class Employee {
   .forEach(empname => console.log(empname))
   console.log(`-------------------------------------------step 2 -----------------------------`);
   const WiproEmployees = arrayEmployees.filter((employee)=> {
-    return employee.emp_company===' Wipro';
+    return employee.emp_company== "Wipro";
   });
 
   let salarySum=0;
@@ -33,7 +33,7 @@ class Employee {
   console.log(`Average salary from Wipro company is : ${salarySum/WiproEmployees.length}`);
   console.log(`-------------------------------------step 3-------------------------------`);
    const averageTotal = arrayEmployees.filter((employee)=>{
-    return employee.emp_company ==='Wipro' || emp_company ==='Infy';
+    return employee.emp_company ==="Wipro" || employee.emp_company ==="Infy";
    })
     let AverageSum = 0;
     for (const employee of averageTotal) {
@@ -42,3 +42,4 @@ class Employee {
     }
     console.log(`The average salry of wipro is  :${AverageSum/averageTotal.length}`);
     console.log(`The average salry of Infy  is  :${AverageSum/averageTotal.length}`);
+    console.log(`----------------------------------------*****------------------------------`);

@@ -40,6 +40,5 @@ class Employee {
         AverageSum = AverageSum+employee.emp_salary;
         
     }
-    console.log(`The average salry of wipro is  :${AverageSum/averageTotal.length}`);
-    console.log(`The average salry of Infy  is  :${AverageSum/averageTotal.length}`);
+    console.log(`The average salry sum of wipro and Infy is  :${AverageSum/averageTotal.length}`);
     console.log(`----------------------------------------*****------------------------------`);
